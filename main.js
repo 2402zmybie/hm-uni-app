@@ -3,6 +3,9 @@ import App from './App'
 
 Vue.config.productionTip = false
 
+//定义全局数据,通过vue的原型来实现
+Vue.prototype.baseUrl = "www.hr.com"
+
 App.mpType = 'app'
 
 const app = new Vue({

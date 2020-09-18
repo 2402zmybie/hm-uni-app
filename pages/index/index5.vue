@@ -25,7 +25,10 @@
 			}
 		},
 		onLoad() {
-
+			//得到全局的数据
+			console.log("vue原型定义的全局数据: " + this.baseUrl)
+			
+			console.log("获取小程序独有的全局数据(但是在app中也能得到) globalData:" + getApp().globalData.base)
 		}
 	}
 </script>
