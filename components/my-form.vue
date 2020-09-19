@@ -8,6 +8,11 @@
 </template>
 
 <script>
+	export default {
+		mounted() {
+			console.log("my-form组件挂载完毕")
+		}
+	}
 </script>
 
 <style>

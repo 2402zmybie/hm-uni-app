@@ -231,7 +231,17 @@ var render = function() {
         [
           _c("v-uni-input", {
             attrs: { type: "text", placeholder: "插槽上显示的标签", _i: 2 }
-          })
+          }),
+          _c("v-uni-radio", { attrs: { _i: 3 } }),
+          _c(
+            "v-uni-label",
+            { attrs: { _i: 4 } },
+            [
+              _c("v-uni-checkbox", { attrs: { value: 1, _i: 5 } }),
+              _c("v-uni-text", { attrs: { _i: 6 } })
+            ],
+            1
+          )
         ],
         1
       )
@@ -1854,7 +1864,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 36);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
 // Exports
 module.exports = exports;
 
